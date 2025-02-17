@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="app_name">AiGenTrip</string>
+    <string name="power_by">Power by</string>
+    <string name="enter_your_prompt">Enter your prompt</string>
+    <string name="generate">Generate</string>
+    <string name="prompt_default">Plan a trip at %s from %s to %s</string>
+    <string name="accommodations">Accommodations</string>
+    <string name="foods">Foods</string>
+    <string name="activities">Activities</string>
+    <string name="places">Places</string>
+    <string name="duration">Duration: %s</string>
+    <string name="search_flight_in">in</string>
+    <string name="search_flight_city_from">From</string>
+    <string name="departure_city">Departure\nCity</string>
+    <string name="search_flight_city_to">To</string>
+    <string name="arrival_city">Arrival\nCity</string>
+    <string name="date_select">Select Date</string>
+    <string name="booking_trip_gen_with_ai_title">Plan your trip easily with Gemini</string>
+    <string name="date_departure">Departure Date</string>
+    <string name="date_return">Return Date</string>
+    <string name="clear">Clear</string>
+
+    <string name="cabin_class_economy">Economy</string>
+    <string name="cabin_class_premium_economy">Premium Economy</string>
+    <string name="cabin_class_premium_economy_class">Premium Economy Class</string>
+    <string name="cabin_class_business">Business</string>
+    <string name="cabin_class_first_suites">First / Suites</string>
+    <string name="done">Done</string>
+    <string name="passenger_cabin_class_selection_cabin_class_title">Cabin Class</string>
+    <string name="passenger_cabin_class_selection_passenger_title">Passengers</string>
+    <string name="cabin_class_default">-</string>
+
+    <string name="search_flight_passenger_type_adult">Adult</string>
+    <string name="search_flight_passenger_type_adults">Adults</string>
+    <string name="search_flight_passenger_type_child">Child</string>
+    <string name="search_flight_passenger_type_children">Children</string>
+    <string name="search_flight_passenger_type_infant">Infant</string>
+    <string name="search_flight_passenger_type_infants">Infants</string>
+    <string name="fare_bar_seat_label_seat">SEAT</string>
+    <string name="fare_bar_seat_label_seats">SEATS</string>
+</resources>

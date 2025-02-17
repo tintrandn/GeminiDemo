@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_grey">
+
+    <LinearLayout
+        android:id="@+id/flightsearch_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_rounded_corner"
+            android:drawableTop="@drawable/gemini_brand_color"
+            android:drawablePadding="3dp"
+            android:fontFamily="@font/proxima_nova_semibold"
+            android:gravity="center"
+            android:padding="@dimen/dp_15"
+            android:text="@string/power_by"
+            android:textColor="@color/text_blue"
+            android:textSize="@dimen/text_size_h1" />
+
+        <com.example.aitripdemo.widget.FlightAirportWidget
+            android:id="@+id/flight_airport_widget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <com.example.aitripdemo.widget.FlightDateWidget
+                android:id="@+id/flight_date_widget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.example.aitripdemo.widget.FlightCabinClassWidget
+                android:id="@+id/flight_cabin_class_widget"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="9dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:foreground="?android:attr/selectableItemBackground" />
+
+        </LinearLayout>
+
+        <include
+            android:id="@+id/layout_flight_recommender"
+            layout="@layout/gen_ai_trip_recommender" />
+    </LinearLayout>
+</ScrollView>

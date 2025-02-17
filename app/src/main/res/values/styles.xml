@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="CardRoundedCorner">
+        <item name="android:background">@drawable/card_rounded_corner</item>
+        <item name="android:layout_marginTop">@dimen/card_rounded_corner_margin</item>
+        <item name="android:layout_marginStart">@dimen/card_rounded_corner_margin</item>
+        <item name="android:layout_marginEnd">@dimen/card_rounded_corner_margin</item>
+    </style>
+
+</resources>
