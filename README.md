@@ -9,3 +9,7 @@ UNS_KEY=YOUR_KEY
 Demo flow
 
 ![Alt text](./DemoFlow.png)
+
+Multicity and Pelago
+
+![Alt text](./Integrate_with_pelago.jpeg)
